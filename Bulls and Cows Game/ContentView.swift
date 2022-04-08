@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var game = Game(secretNumber: Game.getRandomNumber)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Find the secret number")
+//            Text(game.secretNumberAsString)
+            GuessesView(guesses: game.guesses)
+            if game.done {
+                Text("You WIN!").font(.title)
+                    .padding(.bottom, 30)
+                Button("🔄") {
+                    game = Game(secretNumber: Game.getRandomNumber)
+                }
+            } else {
+//                Button("Add mocks") {
+//                    Game.setGuessesMocks(game: &game, count: 55)
+//                }.padding()
+                KeyboardView() {
+                    game.addGuess(numbers: $0)
+                }
+            }
+        }
     }
 }
 

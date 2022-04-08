@@ -14,6 +14,9 @@
 		878BA67428006061004C9F5D /* Bulls_and_Cows_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67328006061004C9F5D /* Bulls_and_Cows_GameTests.swift */; };
 		878BA67E28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67D28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift */; };
 		878BA68028006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67F28006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift */; };
+		878BA68D28006114004C9F5D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA68C28006114004C9F5D /* Game.swift */; };
+		878BA68F280063D8004C9F5D /* GuessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA68E280063D8004C9F5D /* GuessesView.swift */; };
+		878BA69128006438004C9F5D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA69028006438004C9F5D /* KeyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		878BA67928006061004C9F5D /* Bulls and Cows GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulls and Cows GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878BA67D28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameUITests.swift; sourceTree = "<group>"; };
 		878BA67F28006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		878BA68C28006114004C9F5D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		878BA68E280063D8004C9F5D /* GuessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessesView.swift; sourceTree = "<group>"; };
+		878BA69028006438004C9F5D /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				878BA6622800605D004C9F5D /* Bulls_and_Cows_GameApp.swift */,
 				878BA6642800605D004C9F5D /* ContentView.swift */,
+				878BA68E280063D8004C9F5D /* GuessesView.swift */,
+				878BA69028006438004C9F5D /* KeyboardView.swift */,
+				878BA68C28006114004C9F5D /* Game.swift */,
 				878BA66628006061004C9F5D /* Assets.xcassets */,
 				878BA66828006061004C9F5D /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				878BA6652800605D004C9F5D /* ContentView.swift in Sources */,
+				878BA68D28006114004C9F5D /* Game.swift in Sources */,
+				878BA68F280063D8004C9F5D /* GuessesView.swift in Sources */,
+				878BA69128006438004C9F5D /* KeyboardView.swift in Sources */,
 				878BA6632800605D004C9F5D /* Bulls_and_Cows_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
