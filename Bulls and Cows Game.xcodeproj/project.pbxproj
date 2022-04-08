@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878BA6632800605D004C9F5D /* Bulls_and_Cows_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA6622800605D004C9F5D /* Bulls_and_Cows_GameApp.swift */; };
+		878BA6652800605D004C9F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA6642800605D004C9F5D /* ContentView.swift */; };
+		878BA66728006061004C9F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878BA66628006061004C9F5D /* Assets.xcassets */; };
+		878BA66A28006061004C9F5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878BA66928006061004C9F5D /* Preview Assets.xcassets */; };
+		878BA67428006061004C9F5D /* Bulls_and_Cows_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67328006061004C9F5D /* Bulls_and_Cows_GameTests.swift */; };
+		878BA67E28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67D28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift */; };
+		878BA68028006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BA67F28006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878BA67028006061004C9F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878BA6572800605D004C9F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878BA65E2800605D004C9F5D;
+			remoteInfo = "Bulls and Cows Game";
+		};
+		878BA67A28006061004C9F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878BA6572800605D004C9F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878BA65E2800605D004C9F5D;
+			remoteInfo = "Bulls and Cows Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878BA65F2800605D004C9F5D /* Bulls and Cows Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bulls and Cows Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878BA6622800605D004C9F5D /* Bulls_and_Cows_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameApp.swift; sourceTree = "<group>"; };
+		878BA6642800605D004C9F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		878BA66628006061004C9F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		878BA66928006061004C9F5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		878BA66F28006061004C9F5D /* Bulls and Cows GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulls and Cows GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878BA67328006061004C9F5D /* Bulls_and_Cows_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameTests.swift; sourceTree = "<group>"; };
+		878BA67928006061004C9F5D /* Bulls and Cows GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulls and Cows GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878BA67D28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameUITests.swift; sourceTree = "<group>"; };
+		878BA67F28006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulls_and_Cows_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878BA65C2800605D004C9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA66C28006061004C9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA67628006061004C9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878BA6562800605D004C9F5D = {
+			isa = PBXGroup;
+			children = (
+				878BA6612800605D004C9F5D /* Bulls and Cows Game */,
+				878BA67228006061004C9F5D /* Bulls and Cows GameTests */,
+				878BA67C28006061004C9F5D /* Bulls and Cows GameUITests */,
+				878BA6602800605D004C9F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878BA6602800605D004C9F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878BA65F2800605D004C9F5D /* Bulls and Cows Game.app */,
+				878BA66F28006061004C9F5D /* Bulls and Cows GameTests.xctest */,
+				878BA67928006061004C9F5D /* Bulls and Cows GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878BA6612800605D004C9F5D /* Bulls and Cows Game */ = {
+			isa = PBXGroup;
+			children = (
+				878BA6622800605D004C9F5D /* Bulls_and_Cows_GameApp.swift */,
+				878BA6642800605D004C9F5D /* ContentView.swift */,
+				878BA66628006061004C9F5D /* Assets.xcassets */,
+				878BA66828006061004C9F5D /* Preview Content */,
+			);
+			path = "Bulls and Cows Game";
+			sourceTree = "<group>";
+		};
+		878BA66828006061004C9F5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				878BA66928006061004C9F5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		878BA67228006061004C9F5D /* Bulls and Cows GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				878BA67328006061004C9F5D /* Bulls_and_Cows_GameTests.swift */,
+			);
+			path = "Bulls and Cows GameTests";
+			sourceTree = "<group>";
+		};
+		878BA67C28006061004C9F5D /* Bulls and Cows GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				878BA67D28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift */,
+				878BA67F28006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift */,
+			);
+			path = "Bulls and Cows GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878BA65E2800605D004C9F5D /* Bulls and Cows Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878BA68328006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows Game" */;
+			buildPhases = (
+				878BA65B2800605D004C9F5D /* Sources */,
+				878BA65C2800605D004C9F5D /* Frameworks */,
+				878BA65D2800605D004C9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bulls and Cows Game";
+			productName = "Bulls and Cows Game";
+			productReference = 878BA65F2800605D004C9F5D /* Bulls and Cows Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878BA66E28006061004C9F5D /* Bulls and Cows GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878BA68628006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows GameTests" */;
+			buildPhases = (
+				878BA66B28006061004C9F5D /* Sources */,
+				878BA66C28006061004C9F5D /* Frameworks */,
+				878BA66D28006061004C9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878BA67128006061004C9F5D /* PBXTargetDependency */,
+			);
+			name = "Bulls and Cows GameTests";
+			productName = "Bulls and Cows GameTests";
+			productReference = 878BA66F28006061004C9F5D /* Bulls and Cows GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		878BA67828006061004C9F5D /* Bulls and Cows GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878BA68928006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows GameUITests" */;
+			buildPhases = (
+				878BA67528006061004C9F5D /* Sources */,
+				878BA67628006061004C9F5D /* Frameworks */,
+				878BA67728006061004C9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878BA67B28006061004C9F5D /* PBXTargetDependency */,
+			);
+			name = "Bulls and Cows GameUITests";
+			productName = "Bulls and Cows GameUITests";
+			productReference = 878BA67928006061004C9F5D /* Bulls and Cows GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878BA6572800605D004C9F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					878BA65E2800605D004C9F5D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					878BA66E28006061004C9F5D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 878BA65E2800605D004C9F5D;
+					};
+					878BA67828006061004C9F5D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 878BA65E2800605D004C9F5D;
+					};
+				};
+			};
+			buildConfigurationList = 878BA65A2800605D004C9F5D /* Build configuration list for PBXProject "Bulls and Cows Game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878BA6562800605D004C9F5D;
+			productRefGroup = 878BA6602800605D004C9F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878BA65E2800605D004C9F5D /* Bulls and Cows Game */,
+				878BA66E28006061004C9F5D /* Bulls and Cows GameTests */,
+				878BA67828006061004C9F5D /* Bulls and Cows GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878BA65D2800605D004C9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BA66A28006061004C9F5D /* Preview Assets.xcassets in Resources */,
+				878BA66728006061004C9F5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA66D28006061004C9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA67728006061004C9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878BA65B2800605D004C9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BA6652800605D004C9F5D /* ContentView.swift in Sources */,
+				878BA6632800605D004C9F5D /* Bulls_and_Cows_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA66B28006061004C9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BA67428006061004C9F5D /* Bulls_and_Cows_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878BA67528006061004C9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BA67E28006061004C9F5D /* Bulls_and_Cows_GameUITests.swift in Sources */,
+				878BA68028006061004C9F5D /* Bulls_and_Cows_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878BA67128006061004C9F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878BA65E2800605D004C9F5D /* Bulls and Cows Game */;
+			targetProxy = 878BA67028006061004C9F5D /* PBXContainerItemProxy */;
+		};
+		878BA67B28006061004C9F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878BA65E2800605D004C9F5D /* Bulls and Cows Game */;
+			targetProxy = 878BA67A28006061004C9F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		878BA68128006061004C9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		878BA68228006061004C9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878BA68428006061004C9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bulls and Cows Game/Preview Content\"";
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		878BA68528006061004C9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bulls and Cows Game/Preview Content\"";
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		878BA68728006061004C9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulls and Cows Game.app/Bulls and Cows Game";
+			};
+			name = Debug;
+		};
+		878BA68828006061004C9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulls and Cows Game.app/Bulls and Cows Game";
+			};
+			name = Release;
+		};
+		878BA68A28006061004C9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bulls and Cows Game";
+			};
+			name = Debug;
+		};
+		878BA68B28006061004C9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BAHL7N2938;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AmBusy.Bulls-and-Cows-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bulls and Cows Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878BA65A2800605D004C9F5D /* Build configuration list for PBXProject "Bulls and Cows Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BA68128006061004C9F5D /* Debug */,
+				878BA68228006061004C9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878BA68328006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BA68428006061004C9F5D /* Debug */,
+				878BA68528006061004C9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878BA68628006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BA68728006061004C9F5D /* Debug */,
+				878BA68828006061004C9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878BA68928006061004C9F5D /* Build configuration list for PBXNativeTarget "Bulls and Cows GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BA68A28006061004C9F5D /* Debug */,
+				878BA68B28006061004C9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878BA6572800605D004C9F5D /* Project object */;
+}
